@@ -167,7 +167,7 @@ In order to use resources, you need the :class:`~androguard.core.bytecodes.axml.
 
     from androguard.core.bytecodes.axml import ARSCParser
 
-    with open("resouces.arsc", "rb") as fp:
+    with open("resources.arsc", "rb") as fp:
         res = ARSCParser(fp.read())
 
     # Now you can resolve IDs:
